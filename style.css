@@ -1,0 +1,38 @@
+body{
+  margin: 50px 30px;
+  
+}
+
+.container{
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.left{
+  transform: rotate(180deg);
+}
+.container .frame{
+  display: flex;
+  overflow: hidden;
+}
+
+.frame .slider{
+  height: 200px;
+  width: 250px;
+  background: #000;
+  display: flex;
+  
+}
+.image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+.img1, img2, img3, img4{
+  width: 250px;
+  object-fit: cover;
+}
