@@ -22,9 +22,9 @@ body{
 .frame .slider{
   height: 200px;
   width: 250px;
-  background: #000;
+  background: #000; 
+  transition:all .4s ease;
   display: flex;
-  transition: .4s;
   
 }
 .image{
