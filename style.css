@@ -24,6 +24,7 @@ body{
   width: 250px;
   background: #000;
   display: flex;
+  transition: .4s;
   
 }
 .image{
